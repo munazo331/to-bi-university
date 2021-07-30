@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.top_visual {
+	width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-width: 1100px;
+		background-image: url("../images/main_visual.png");
+	z-index: -2;
+}
+
+
+.main_visual {
+position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0px 15px;
+    background-color: #FFF;
+    opacity: 0.75;
+z-index: 1;
+}
+
+
+.top_visual:after {
+	content: "";
+position: absolute;
+    width: 270px;
+    height: 110px;
+    top: -30px;
+    bottom: 0;
+    left: -30px;
+    right: 0;
+    margin: auto;
+    padding: 0px 15px;
+	    background: linear-gradient(to right, #5FAFFF, #D98EFF);
+	    opacity: 0.6;
+	z-index: -1;
+}
+
+.top_visual:before {
+	content: "";
+position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 0px;
+    bottom: -30px;
+    left: 0;
+    right: -30px;
+    margin: auto;
+    padding: 0px 15px;
+	    background: linear-gradient(to right, #5FAFFF, #D98EFF);
+	    opacity: 0.6;
+	z-index: -1;
+}
+
+.title_visual {
+    position: absolute;
+    top: 18px;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+    font-size: 4rem;
+	color: #222222;
+}
+.title_visual:after {
+	content: "";
+	position: absolute;
+	    top: 10px;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+	    margin: auto;
+	height: 1px;
+	background: #222;
+	width: 80%;
+}
+
+.title_visual, .main_visual span {
+    font-family: "Yu Mincho", "YuMincho", serif;
+	font-weight: 400;
+}
+
+.main_visual span {
+		position: absolute;
+	    top: 78px;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+}
+
+/* パンくず */
+
+.container_crumbs {
+	position: static;
+	line-height: 80px;
+}
+
+.crumbs {
+}
+
+.two_column {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+h3, .photo {
+	margin-bottom: 40px;
+}
+.photo {
+	text-align: left;
+}
+
+
+
+
+
+
+article p {
+	margin-bottom: 60px;
+}
+
+h3 {
+  position: relative;
+  line-height: 1.4;
+  padding: 0.75em 1.5em;
+  display: inline-block;
+	font-size: 2.4rem;
+	    font-family: "Yu Mincho", "YuMincho", serif;
+	font-weight: 600;
+}
+
+h3:before, h3:after { 
+  content:'';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+
+h3:before {
+  border-left: solid 2px #D5B7EB;
+  border-top: solid 2px #D5B7EB;
+  top:0;
+  left: 0;
+}
+
+h3:after {
+  border-right: solid 2px #D5B7EB;
+  border-bottom: solid 2px #D5B7EB;
+  bottom:0;
+  right: 0;
+}
+
+
+
+
+
+.news_contents article {
+	width: 73%;
+	margin-right: 5%;
+}
+
+.news_contents img {
+	width: 100%;
+}
+
+.news_contents aside {
+	width: 22%;
+	line-height: 3rem;
+	font-size: 1.375rem;
+	text-align: left;
+}
+
+
+
+.sub_title {
+	font-size: 1.75rem;
+	padding: 14px 16px;
+	color: #fff;
+		  background: linear-gradient(to right, #8EC5FC, #E9C3FC);
+	font-weight: 500;
+}
+
+.sub_menu {
+	margin-bottom: 60px;
+}
+.sub_menu li {
+	position: relative;
+	display: block;
+	padding: 12px 16px;
+	border-bottom: 1px solid #222;
+	  transition: all 0.25s ease;
+}
+
+.sub_menu a {
+
+}
+
+
+
+.sub_menu .now li {
+		border-bottom: 1px solid #FFFFFF;
+}
+
+#now {
+	position: relative;
+	background-color: #C7C928;
+	color: #fff;
+	border-bottom: none;	
+}
+
+
+
+
+#now:after {
+	  content: "";
+  top: 22.5px;
+  width: 6.5px;
+  height: 6.5px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 20px;
+	color: #C7C928;
+}
+
+.sub_menu li:after {
+  content: "";
+  top: 22.5px;
+  width: 6.5px;
+  height: 6.5px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 20px;
+}
+.sub_menu a:hover li {
+	color: #B98CDA;
+}
+
+
+
+.news_contents {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: -30px;
+}
+
+.news_contents p {
+	text-align: left;
+			line-height: 2.8rem;
+}
+
+
+/* 学校沿革 */
+
+.photo_name {
+	display: block;
+	width: 100%;
+	font-size: 1.15rem;
+	text-align: right;
+	margin: 8px auto 0;
+}
+
+.col-sm-9 {
+	margin-bottom: 60px;
+	text-align: left;
+}
+
+.col-sm-9 tr {
+		vertical-align: top;
+	margin-bottom: 90px;
+}
+
+.col-sm-9 th,.col-sm-9 td {
+	padding: 0 0 30px 30px;
+}
+
+.col-sm-9 th {
+	width: 21.5%;
+	color: #9160A9;
+	font-size: 2.2rem;
+		    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, sans-serif;
+    position: relative;
+    text-align: left;
+}
+.col-sm-9 th:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	background-color: #222;
+	width: 20px;
+	right: -22.5px;
+	top: 14px;
+}
+
+.col-sm-9 span {
+	margin-left: 6px;
+	font-size: 1.2rem;
+	color: #999;
+	    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, sans-serif;
+	vertical-align: middle;
+    font-weight: 400;
+}
+.col-sm-9 td {
+	line-height: 3rem;
+}
+
+
+
+.col-sm-9 tbody {
+	width: 100%;
+
+}
+
+
+
+
+
+@media (max-width: 750px) {
+
+.top_visual {
+    min-width: 600px;
+}
+
+	/* パンくず */
+
+.container_crumbs {
+
+}
+
+.crumbs {
+		min-width: 600px;
+}
+	
+
+.two_column {
+	width: 100%;
+	margin: 0px auto 120px;
+}
+
+	.news_contents {
+				flex-direction: column;
+	width: 100%;
+			min-width: 600px;
+			margin-bottom: 50px;
+	}
+	
+.news_contents article {
+	width: 92%;
+	margin-right: 0%;
+
+	margin: 0 auto 30px;
+}
+
+.news_contents img {
+	width: 100%;
+}
+
+.news_contents aside {
+	width: 92%;
+    line-height: 4.2rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+	.news_contents aside p {
+		text-align: center;
+		    line-height: 5.2rem;
+    font-size: 1.6em;
+	}
+	
+.news_contents li {
+
+}
+
+	
+.sub_menu li {
+	padding: 14px 16px;
+	font-size: 1.65rem
+}
+
+.sub_menu {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+	.sub_menu li:after {
+  top: 29.5px;
+  width: 8.5px;
+  height: 8.5px;
+}
+
+	
+/* 学校沿革 */
+
+
+.col-sm-9 {
+	margin-bottom: 30px;
+}
+
+.col-sm-9 th,.col-sm-9 td {
+	padding: 0 0 30px 0px;
+}
+
+.col-sm-9 th {
+
+	width: 16%;
+    position: relative;
+}
+	
+.col-sm-9 th:after {
+	height: 0px;
+	width: 0px;
+}
+
+.col-sm-9 span {
+		display: block;
+	margin: 8px 0 0;
+	font-size: 1.2rem;
+}
+.col-sm-9 td {
+	line-height: 3rem;
+}
+
+
+
+.col-sm-9 tbody {
+	width: 100%;
+
+}
+
+	
+
+}
+
+
+
+
+
+
+

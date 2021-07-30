@@ -1,0 +1,781 @@
+@charset "UTF-8";
+/* CSS Document */
+.top_visual.main_painting:before {
+  background: linear-gradient(to right, #093954, #ED580D);
+  opacity: 0.65;
+}
+.top_visual.main_jpainting:before {
+  background: linear-gradient(to right, #904079, #C4A451);
+  opacity: 0.65;
+}
+.top_visual.main_printmaking:before {
+  background: linear-gradient(to right, #2599B0, #C89027);
+  opacity: 0.55;
+}
+.top_visual.main_sculpture:before {
+  background: linear-gradient(to right, #305244, #D7D2CC);
+  opacity: 0.65;
+}
+.top_visual.main_culture:before {
+  background: linear-gradient(to right, #ED5B42, #FFEDBC);
+  opacity: 0.7;
+}
+.top_visual.main_architecture:before {
+  background: linear-gradient(to right, #138ADD, #F9FFA7);
+  opacity: 0.5;
+}
+.top_visual.main_design_craft:before {
+  background: linear-gradient(to right, #D3EA70, #420202);
+  opacity: 0.50;
+}
+.top_visual.main_perform:before {
+  background: linear-gradient(to right, #030452, #E2091E);
+  opacity: 0.65;
+}
+.top_visual.main_painting:after {
+  background: url(../../painting/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_jpainting:after {
+  background: url(../../jpainting/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_printmaking:after {
+  background: url(../../printmaking/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_sculpture:after {
+  background: url(../../sculpture/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_culture:after {
+  background: url(../../culture/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_architecture:after {
+  background: url(../../architecture/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_design_craft:after {
+  background: url(../../design_craft/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.top_visual.main_perform:after {
+  background: url(../../perform/images/main_visual.png) no-repeat right center;
+  background-size: cover;
+}
+.ed_policy {
+  margin: 108px auto;
+  position: relative;
+}
+.ed_area {
+  margin: 0 auto;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  max-width: 820px;
+}
+.ed_title {
+  display: block;
+  margin: 0 auto 45px;
+  font-size: 2.85rem;
+  text-align: center;
+  max-width: 640px;
+  line-height: 4.2rem;
+  font-weight: 600;
+}
+.ed_text {
+  display: block;
+  text-align: left;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+.back_img {
+  position: absolute;
+  opacity: 0.2;
+  height: 440px;
+  width: 440px;
+  top: -3px;
+  right: 0;
+  left: 665px;
+  bottom: 0;
+  margin: auto;
+	z-index: -1;
+}
+
+.back_img.painting {
+  background: url(../../painting/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+}
+.back_img.jpainting {
+  background: url(../../jpainting/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}
+.back_img.printmaking {
+  background: url(../../printmaking/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}
+.back_img.sculpture {
+  background: url(../../sculpture/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.35;
+}
+.back_img.culture {
+  background: url(../../culture/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}
+.back_img.architecture {
+  background: url(../../architecture/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.5;
+}
+.back_img.design_craft {
+  background: url(../../design_craft/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}.back_img.perform {
+  background: url(../../perform/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.35;
+}
+.back_img.craft {
+  background: url(../../craft/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}
+.back_img.stage {
+  background: url(../../stage/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.4;
+}
+.back_img.space_design {
+  background: url(../../space/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.5;
+}
+.back_img.archi_traditional {
+  background: url(../../traditional/images/subject_ico.png) no-repeat;
+	  background-size: contain;
+	  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.curriculum {
+  background-image: url("../images/background.png");
+  background-size: auto;
+  min-width: 1100px;
+  margin: auto;
+}
+.course {
+  min-width: 1280px;
+}
+.course_img {}
+.archi {
+  width: 100%;
+  background-image: url("../images/archi_design.png");
+  background-size: cover;
+}
+.space {
+  width: 100%;
+  background-image: url("../images/space_design.png");
+  background-size: cover;
+}
+.tradi {
+  width: 100%;
+  background-image: url("../images/archi_traditional.png");
+  background-size: cover;
+}
+.des {
+  width: 100%;
+  background-image: url("../images/design.png");
+  background-size: cover;
+}
+.cra {
+  width: 100%;
+  background-image: url("../images/craft.png");
+  background-size: cover;
+}
+.perf {
+  width: 100%;
+  background-image: url("../images/perform.png");
+  background-size: cover;
+}
+.stag {
+  width: 100%;
+  background-image: url("../images/stage.png");
+  background-size: cover;
+}
+
+
+
+.gray {
+  filter: grayscale(100%);
+  opacity: 0.9;
+  transition: all 0.25s ease;
+}
+.gray:hover {
+  filter: grayscale(0%);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.course_item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style-type: none;
+}
+.course_item ul {
+  position: relative;
+}
+.course_item li {
+  border: 0.5px solid #fff;
+  overflow: hidden;
+}
+.course img {
+  display: block;
+}
+.course_title {
+  display: inline-block;
+  margin: 108px auto 108px;
+  font-size: 2.4rem;
+  width: 1100px;
+}
+h3 {
+  width: 32%;
+  display: block;
+  font-weight: 500;
+  margin: 0 auto 32px;
+  color: #fff;
+  background-color: #222;
+  font-size: 4.2rem;
+  line-height: 5.4rem;
+  padding: 0 30px;
+}
+h4 {
+  position: relative;
+  display: block;
+  font-weight: 900;
+  font-size: 1.4rem;
+  padding: 2px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+h4 span {
+  letter-spacing: 8px;
+}
+h4:before {
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 2px;
+  background: -webkit-linear-gradient(to right, #8EC5FC, #E9C3FC);
+  background: linear-gradient(to right, #8EC5FC, #E9C3FC);
+  top: 10px;
+  width: 458px;
+  z-index: 1;
+  left: 0px;
+}
+h4:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 2px;
+  background: -webkit-linear-gradient(to right, #8EC5FC, #E9C3FC);
+  background: linear-gradient(to right, #E9C3FC, #8EC5FC);
+  top: 10px;
+  width: 459px;
+  z-index: 1;
+  left: 642px;
+}
+h4.painting:before {
+  background: -webkit-linear-gradient(to right, #093954, #ED580D);
+  background: linear-gradient(to right, #093954, #ED580D);
+  opacity: 0.6;
+}
+h4.painting:after {
+  background: -webkit-linear-gradient(to right, #ED580D, #093954);
+  background: linear-gradient(to right, #ED580D, #093954);
+  opacity: 0.6;
+}
+h4.jpainting:before {
+  background: -webkit-linear-gradient(to right, #904079, #C4A451);
+  background: linear-gradient(to right, #904079, #C4A451);
+  opacity: 0.6;
+}
+h4.jpainting:after {
+  background: -webkit-linear-gradient(to right, #C4A451, #904079);
+  background: linear-gradient(to right, #C4A451, #904079);
+  opacity: 0.6;
+}
+h4.sculpture:before {
+  background: -webkit-linear-gradient(to right, #305244, #D7D2CC);
+  background: linear-gradient(to right, #305244, #D7D2CC);
+  opacity: 0.6;
+}
+h4.sculpture:after {
+  background: -webkit-linear-gradient(to right, #D7D2CC, #305244);
+  background: linear-gradient(to right, #D7D2CC, #305244);
+  opacity: 0.6;
+}
+h4.printmaking:before {
+  background: -webkit-linear-gradient(to right, #093954, #ED580D);
+  background: linear-gradient(to right, #2599B0, #C89027);
+  opacity: 0.6;
+}
+h4.printmaking:after {
+  background: -webkit-linear-gradient(to right, #ED580D, #093954);
+  background: linear-gradient(to right, #C89027, #2599B0);
+  opacity: 0.6;
+}
+h4.culture:before {
+  background: -webkit-linear-gradient(to right, #ED5B42, #FFEDBC);
+  background: linear-gradient(to right, #ED5B42, #FFEDBC);
+  opacity: 0.6;
+}
+h4.culture:after {
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED5B42);
+  background: linear-gradient(to right, #FFEDBC, #ED5B42);
+  opacity: 0.6;
+}
+h4.architecture:before {
+  background: -webkit-linear-gradient(to right, #138ADD, #F9FFA7);
+  background: linear-gradient(to right, #138ADD, #F9FFA7);
+  opacity: 0.6;
+}
+h4.architecture:after {
+  background: -webkit-linear-gradient(to right, #F9FFA7, #138ADD);
+  background: linear-gradient(to right, #F9FFA7, #138ADD);
+  opacity: 0.6;
+}
+h4.design_craft:before {
+  background: -webkit-linear-gradient(to right, #420202, #D3EA70);
+  background: linear-gradient(to right, #420202, #D3EA70);
+  opacity: 0.6;
+}
+h4.design_craft:after {
+  background: -webkit-linear-gradient(to right, #D3EA70, #420202);
+  background: linear-gradient(to right, #D3EA70, #420202);
+  opacity: 0.6;
+}
+h4.perform:before {
+  background: -webkit-linear-gradient(to right, #030452, #E2091E);
+  background: linear-gradient(to right, #030452, #E2091E);
+  opacity: 0.6;
+}
+h4.perform:after {
+  background: -webkit-linear-gradient(to right, #E2091E, #030452);
+  background: linear-gradient(to right, #E2091E, #030452);
+  opacity: 0.6;
+}
+.flow_heading {
+  display: flex;
+  float: left;
+  margin: -5px 10px 0 0;
+  padding: 0;
+  font-size: 26px;
+  line-height: 0.8;
+}
+.flow_item {
+  display: flex;
+  margin-bottom: 108px;
+  width: 1100px;
+  margin: 0 auto 108px;
+}
+.flow_heading {}
+.flow {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.number {
+  font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+  font-size: 10rem;
+  font-weight: 400;
+  width: 108px;
+}
+.flow_body {
+  padding-left: 10px;
+  text-align: left;
+}
+.inner {
+  position: relative;
+  padding: 0 0 0 30px;
+  border-left: 1px solid #000;
+  display: block;
+}
+.group {}
+.flow_circle {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  display: block;
+  position: absolute;
+  background-color: #222;
+  top: 0;
+  left: -6px;
+  line-height: 0;
+}
+.flow_arrow {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: -12px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.flow_arrow:after {
+  display: block;
+  position: relative;
+  top: 2px;
+  left: 6px;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-top: 12px solid #000;
+  content: "";
+}
+.alignright {
+  height: auto;
+  margin: 30px 0 30px 0;
+}
+.flow_title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.flow_text {
+  width: 84%;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+.annual {
+  font-size: 2rem;
+}
+.graduated {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.graduated_message span {
+  line-height: 2.8rem;
+}
+.course_title {}
+.graduated_box {
+  display: flex;
+  margin-bottom: 90px;
+}
+.graduated_img {
+  position: relative;
+  margin-right: 60px
+}
+.graduated_name {
+  position: absolute;
+  right: 0;
+  bottom: 19px;
+  background: rgba(225, 225, 225, 0.65);
+  padding: 18px 30px;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  height: 90px;
+}
+.graduated_name span {
+  font-weight: 300;
+  font-size: 1.475rem;
+  line-height: 0;
+}
+.graduated_text {
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 2;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.graduated_text p {
+  font-size: 1.6rem;
+  line-height: 1.875;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.name {
+  margin-top: 16px;
+  font-size: 2.4rem;
+}
+.license {
+  margin-bottom: 150px;
+}
+.license_back {
+  background-image: url("../images/course/license_back.png");
+  background-size: cover;
+  min-width: 1100px;
+  margin: auto;
+  height: 450px;
+}
+.license_in {
+  width: 1000px;
+  padding: 35px 50px;
+  border: 0.5px solid #cccccc;
+  background-color: #fff;
+  margin: -160px auto 120px;
+}
+.license_title {
+  margin-bottom: 25px;
+  text-align: left;
+  margin-left: 5px;
+  font-size: 1.675rem;
+}
+.license_title span {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-top: 15px;
+}
+.license_title span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 15px;
+  z-index: -1;
+  background: #D5B7EB;
+}
+.license_title span.painting:before {
+  background: -webkit-linear-gradient(to right, #093954, #ED580D);
+  background: linear-gradient(to right, #093954, #ED580D);
+  opacity: 0.45;
+}
+.license_title span.jpainting:before {
+  background: -webkit-linear-gradient(to right, #093954, #ED580D);
+  background: linear-gradient(to right, #904079, #C4A451);
+  opacity: 0.45;
+}
+.license_title span.printmaking:before {
+  background: -webkit-linear-gradient(to right, #093954, #ED580D);
+  background: linear-gradient(to right, #2599B0, #C89027);
+  opacity: 0.45;
+}
+.license_title span.sculpture:before {
+  background: -webkit-linear-gradient(to right, #305244, #D7D2CC);
+  background: linear-gradient(to right, #305244, #D7D2CC);
+  opacity: 0.45;
+}
+.license_title span.culture:before {
+  background: -webkit-linear-gradient(to right, #ED5B42, #FFEDBC);
+  background: linear-gradient(to right, #ED5B42, #FFEDBC);
+  opacity: 0.45;
+}
+.license_title span.architecture:before {
+  background: -webkit-linear-gradient(to right, #138ADD, #F9FFA7);
+  background: linear-gradient(to right, #138ADD, #F9FFA7);
+  opacity: 0.45;
+}
+.license_title span.design_craft:before {
+  background: -webkit-linear-gradient(to right, #D3EA70, #420202);
+  background: linear-gradient(to right, #D3EA70, #420202);
+  opacity: 0.45;
+}
+.license_title span.perform:before {
+  background: -webkit-linear-gradient(to right, #030452, #E2091E);
+  background: linear-gradient(to right, #030452, #E2091E);
+  opacity: 0.45;
+}
+.license_fg {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.li_li span {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 18px 15px 18px 40px;
+  position: relative;
+}
+.li_li:before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #D5B7EB;
+  border-radius: 10px;
+  top: 19.5px;
+  left: 30px;
+}
+.li_li {
+  position: relative;
+  width: 29.45%;
+  padding: 0 20px;
+}
+.li_li.painting:before {
+  border-color: #ED580D;
+  opacity: 0.6;
+}
+.li_li.jpainting:before {
+  border-color: #904079;
+  opacity: 0.6;
+}
+.li_li.printmaking:before {
+  border-color: #C89027;
+  opacity: 0.6;
+}
+.li_li.sculpture:before {
+  border-color: #305244;
+  opacity: 0.6;
+}
+.li_li.culture:before {
+  border-color: #ED5B42;
+  opacity: 0.6;
+}
+.li_li.architecture:before {
+  border-color: #138ADD;
+  opacity: 0.6;
+}
+.li_li.design_craft:before {
+  border-color: #420202;
+  opacity: 0.6;
+}
+.li_li.perform:before {
+  border-color: #030452;
+  opacity: 0.6;
+}
+.group {
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+@media (max-width: 750px) {
+  .ed_policy {
+    margin: 90px auto;
+  }
+  .ed_area {
+    max-width: 92.5%;
+  }
+  .ed_title {
+    max-width: 84%;
+    font-size: 2.5rem;
+  }
+  .back_img {
+    height: 375px;
+    width: 375px;
+    top: 120px;
+    right: 0;
+    left: 40%;
+    bottom: 0;
+  }
+  .course {
+    min-width: 600px;
+  }
+  .course_title {
+    margin: 90px auto 90px;
+    font-size: 2.4rem;
+    width: 90%;
+  }
+  .curriculum {
+    min-width: 600px;
+  }
+  h3 {
+    width: 36%;
+    font-size: 3.6rem;
+    line-height: 4.15rem;
+    width: 300px;
+  }
+  h4:before {
+    width: 36%;
+    left: -1.5%;
+  }
+  h4:after {
+    width: 36%;
+    left: 65.5%;
+  }
+  .flow_item {
+    width: 96%;
+  }
+  .flow_item {
+    display: block;
+    margin-bottom: 48px;
+  }
+  .flow_heading {
+    float: none;
+    margin: 0 0 25px;
+  }
+  .flow_body {
+    padding-left: 2.5%;
+  }
+  .number {
+    margin: auto;
+  }
+  .alignright {
+    width: 92.5%;
+  }
+  .flow_title {
+    font-size: 2rem;
+    width: 92.5%;
+    line-height: 3.2rem;
+  }
+  .flow_text {
+    width: 92.5%;
+  }
+  .graduated {
+    min-width: 600px;
+  }
+  .graduated_box {
+    display: block
+  }
+  .graduated_img {
+    margin-right: 0px;
+  }
+  .graduated_name {
+    bottom: -18px;
+  }
+  .graduated_text {
+    max-width: 90%;
+    margin: 35px auto;
+  }
+  .license {
+    margin-bottom: 0px;
+  }
+  .license_back {
+    min-width: 600px;
+  }
+  .license_back .course_title {
+    margin: 102px auto;
+  }
+  .license_in {
+    width: 67.5%;
+  }
+  .license_fg {
+    display: block;
+    margin-left: -20px;
+  }
+  .li_li {
+    width: 92.5%;
+  }	
+	
+	
+	
+}

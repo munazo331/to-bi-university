@@ -1,0 +1,366 @@
+@charset "UTF-8";
+/* CSS Document */
+/* トップビジュアル */
+.wrapper {
+  display: block;
+}
+.top_visual {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 444px;
+}
+.top_visual:before {
+  content: "";
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 45%;
+  height: 372px;
+  z-index: -1;
+  background: linear-gradient(to right, #8EC5FC, #E9C3FC);
+	opacity: 0.85;
+}
+
+
+
+.top_visual:after {
+	    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 72.5%;
+    height: 400px;
+    z-index: 1;
+}
+
+
+ .top_visual.main_about:after {
+    background: url(../../about/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_subject:after {
+    background: url(../../subject/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_architecture:after {
+    background: url(../../architecture/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_construction_study:after {
+    background: url(../../construction_study/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_construction_special:after {
+    background: url(../../construction_special/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_arts_crafts:after {
+    background: url(../../arts_crafts/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_design:after {
+    background: url(../../design/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_crafts:after {
+    background: url(../../crafts/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_heritage:after {
+    background: url(../../heritage/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_campuslife:after {
+    background: url(../../campuslife/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_employment:after {
+    background: url(../../employment/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+  .top_visual.main_examination:after {
+    background: url(../../examination/images/main_visual.png) no-repeat right center;
+    background-size: cover; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top_title {
+  position: relative;
+  height: auto;
+  top: 140px;
+  width: 24%;
+  left: 14%;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 6.4rem;
+  z-index: 2;
+  margin: 0;
+}
+
+.top_title {
+  font-family:  serif;
+}
+
+.top_eng {
+  position: absolute;
+  width: 1100px;
+  color: #FFFFFF;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 22px;
+  z-index: 3;
+  font-size: 10.5rem;
+  text-align: right;
+  font-family: serif;
+	opacity: 0.95;
+}
+
+.top_eng_back {
+  position: absolute;
+  width: 1100px;
+  color: #222222;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 22px;
+  z-index: -100;
+  font-size: 10.5rem;
+  text-align: right;
+  font-family: serif;
+	opacity: 1;
+}
+
+
+
+
+/* 大学案内 リスト */
+.about_link {
+  display: block;
+  width: 1100px;
+
+  margin: 70px auto 0;
+}
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+	
+}
+.menu_box {
+  width: 33.333%;
+  text-align: center;
+  position: relative;
+	margin-bottom: 8%;
+}
+.menu_box a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 15%;
+  height: 1px;
+  background: #000;
+  transform: translate(-50%);
+  transition: all 0.25s ease;
+}
+.menu_img {
+			overflow: hidden;
+	border: 0.5px solid #FFFFFF;
+}
+
+.menu_img img {
+  filter: grayscale(100%);
+  width: 100%;
+	  transition: all 0.25s ease;
+	display: block;
+}
+
+.menu_list_text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+.menu_list span {
+  display: block;
+  padding: 25px;
+  transition: all 0.25s ease;
+  position: relative;
+	font-size: 1.6rem;
+}
+.menu_list span:after {
+  content: "";
+  top: 28px;
+  width: 7px;
+  height: 7px;
+  border-top: 1.5px solid;
+  border-right: 1.5px solid;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 18px;
+}
+
+
+
+.menu_list_img .menu_box a:hover span {
+  color: #B98CDA;
+}
+.menu_list_img .menu_box a:hover span:after {
+  color: #B98CDA;
+}
+.menu_list_img .menu_box a:hover .menu_img img {
+  filter: grayscale(10%);
+	  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+
+.menu_list {}
+.menu_box_text {
+  width: 33.333%;
+  text-align: left;
+}
+.menu_text {}
+.menu_text a {
+  display: block;
+  padding: 20px 20px 20px 35px;
+  margin: 0 15px 30px;
+  position: relative;
+  border-bottom: 1px solid;
+  transition: all 0.25s ease;
+}
+.menu_text a:before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  border: 2.5px solid #B98CDA;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.menu_text a:after {
+  content: "";
+  top: 22px;
+  width: 7px;
+  height: 7px;
+  border-top: 1.5px solid;
+  border-right: 1.5px solid;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 15px;
+}
+.menu_text :hover {
+  color: #B98CDA;
+  border-bottom: 1px solid #000;
+}
+
+@media (min-width: 750px) {
+	.top_title 	{
+	min-width: 330px;
+	}
+}
+
+/* スマホ対応 */
+@media (max-width: 750px) {
+.wrapper {
+	width: 100%;
+	max-width: 750px;
+}
+		
+.top_visual {
+  height: 280px;
+  min-width: 600px;
+}
+	
+.top_visual:after {
+    width: 86%;
+    height: 242px;
+    z-index: 1;
+}
+	
+.top_visual:before {
+  width: 60%;
+	  top: 64px;
+	height: 216px;
+}
+
+.top_title {
+  top: 88px;
+  width: 36%;
+  left: 7%;
+  font-size: 4.2rem;
+}
+
+.top_eng {
+  width: 93%;
+  bottom: 23px;
+  margin: 0 auto 0;
+  font-size: 7.5rem;
+}
+
+.top_eng_back {
+  width: 93%;
+  bottom: 23px;
+  margin: 0 auto 0;
+  font-size: 7.5rem;
+}
+	
+	
+
+
+	
+	/* 大学案内 リスト */
+.about_link {
+	
+  width: 100%;	
+
+  margin: 70px auto 0;
+	  min-width: 600px;
+}
+	
+.menu_list {
+  justify-content: flex-start;
+  margin: 0 auto;
+	width: 97%;
+}
+	
+.menu_box {
+  width: 50%;
+margin-bottom: 8%;
+}	
+	.menu_box_text {
+		width: 100%;
+	}
+		.menu_text a {
+  padding: 15px 20px 20px 45px;
+}
+	.menu_text a:before {
+		top: 17px;
+}
+.menu_text a:after {
+		top: 17px;
+}
+	.menu_list_text {
+		margin-top: 30px;
+	}
+
+}
+
+
+

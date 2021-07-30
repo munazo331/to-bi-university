@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+	display: block !important;
+	width: 100%;
+}
+.sp {
+	display: none !important;
+	width: 100%;
+}
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+.pc {
+	display: none !important;
+	width: 100%;
+	}
+.sp
+	{
+	display: block !important;
+	width: 100%;
+	}
+}
+
+
